@@ -8,8 +8,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "type": "module",
-    "deploy": "nuxt generate && gh-pages -d dist",
-    "predeploy": "npm run build"
+    "deploy": "gh-pages -d dist",
+    "start": "nuxt start"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",

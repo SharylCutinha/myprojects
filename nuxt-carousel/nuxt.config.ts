@@ -3,8 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss','nuxt-svgo'],
   app: {
-    baseURL: 'https://github.com/SharylCutinha/myprojects.git', // baseURL: '/<repository>/'
-    buildAssetsDir: 'assets',
     head: {
       title: "SC Ecommerce",
       meta: [
